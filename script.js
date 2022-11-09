@@ -2,7 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 
 
-var passwordInfo = "";
 var lower = "abcdefghijklmnopqrstuvwxyz";
 var upper = lower.toUpperCase();
 var nums = "0123456789";
@@ -10,6 +9,7 @@ var special = "`~!@#$%^&*()_+\\-=[]{}\"\|;:',.<>/?";
 
 function generatePassword() {
 
+  var passwordInfo = "";
   var lengthInput = window.prompt("Between 8 to 128, how long do you want your password?");
   var passwordLength = parseInt(lengthInput);
 
@@ -53,7 +53,7 @@ function generatePassword() {
   var result = ""
 
   for (let i = 0; i < passwordLength; i++) {
-    var gen = Math.floor(Math.random()*passwordInfo.length+1);
+    var gen = Math.floor(Math.random()*passwordInfo.length);
     
     result += passwordInfo.charAt(gen);
   }
