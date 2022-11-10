@@ -15,6 +15,8 @@ Then user is given a choice from upper case, lower case, number, or special char
 <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="HTML" style="width:100px;"/>
 <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="CSS" style="width:100px;"/>
 
+## Link
+<a href="https://connorcho66.github.io/random-password/">Link to depoloyed website</a>
 
 ## License
 
